@@ -2,11 +2,11 @@
 
 ## Usage
 
-Usage: rdf_converter_coxpresdb [options]
-  -f (mandatory) path to the ranking file
-  -d (mandatory) path to the data directory 
-  -i (optional) date issued (ex: 2019-02-25)
-  -n (mandatory) dataset name (ex: Hsa-u.c2-0)
+    Usage: rdf_converter_coxpresdb [options]
+      -f (mandatory) path to the ranking file
+      -d (mandatory) path to the data directory 
+      -i (optional) date issued (ex: 2019-02-25)
+      -n (mandatory) dataset name (ex: Hsa-u.c2-0)
 
     ex) ruby rdf_converter_coexpresdb -f ranking.txt -d ./Hsa-u.v18-12.G26050-S164823.combat_pca_subagging.mrgeo.d -i "2019-02-25" -n "Hsa-u.c2-0" > output.ttl
 
